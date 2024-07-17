@@ -1,0 +1,29 @@
+html, body {
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(27, 28, 31);
+    font-family: "Montserrat", sans-serif;
+
+}
+
+.search-page__videos{
+    display: grid;
+    background-color: rgb(93, 93, 97);
+    margin: 60px auto 0 auto;
+    padding: 10px;
+    width: 1000px;
+
+    border: 2px solid rgb(22, 197, 31);
+    border-radius: 4px;
+
+    grid-template-columns: 1fr;
+    gap: 10px;
+}
+
+.search-page__videos > div > a {
+    color: aquamarine;
+}
+
+.search-page__videos > div {
+    text-align: center;
+}

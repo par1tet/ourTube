@@ -1,0 +1,22 @@
+.InputSearchClass {
+    font-family: "Montserrat", sans-serif;
+
+    display: flex;
+
+    margin: 290px auto 0  auto;
+
+    width: 580px;
+    height: 40px;
+
+    background-color: rgb(173, 173, 173);
+    border: 2px solid black;
+    border-radius: 8px;
+    padding: 4px 12px;
+
+    font-size: 28px;
+}
+
+.InputSearchClass:focus {
+    outline: 1px solid rgb(25, 177, 101);
+    box-shadow: 0px 0px 15px 3px rgb(17, 182, 53);
+}
